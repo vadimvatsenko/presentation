@@ -1,0 +1,196 @@
+
+.body {
+    font-family: 'Roboto', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+address {
+    font-style: normal;
+}
+/* Команда */
+.section {
+    
+    margin: 10px;
+    background-color: #FFF5F6;
+    border-radius: 10px;
+    border: 1px solid #C2E297;
+    height: 828px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.container {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 10px;
+    
+}
+
+.cards__item {
+    width: calc((100% - 140px) / 5);
+    padding: 5px;
+    background-color: #FFB8CA;
+    border: 1px solid #C2E297;
+    border-radius: 10px;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+.cards__img-thumb {
+    overflow: hidden;
+    border: 1px solid #C2E297;
+    border-radius: 5px;
+    height: 170px;
+    
+}
+.cards__img {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+    
+}
+.cards__descr {
+    margin-top: 5px;
+    padding: 5px;
+    border: 1px solid #C2E297;
+    background-color: #F0D1A5;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    
+}
+.team__title {
+    text-align: center;
+    color: #D41443;
+    font-weight: 700;
+    font-size: 40px;
+}
+.cards__title, .user__title {
+    color: #FFFFFF;
+    font-size: 20px;
+    text-align: center;
+}
+.cards__subtitle {
+    display: block;
+    color: #FFFFFF;
+    margin-top: auto;
+    text-align: center;
+    margin-top: 10px;
+}
+.cards__text {
+    color: #FFFFFF;
+    
+}
+.button {
+   
+    display: flex;
+    justify-content: space-between;
+}
+.button__left-link, .button__right-link {
+   
+    
+    padding: 20px 30px;
+    background-color: #D41443 ;
+    border-radius: 22px;
+    color: #FFFFFF;
+    transition: background-color 250ms, color 250ms;
+}
+.button__left-link:hover, .button__right-link:hover {
+
+    background-color: #C2E297;
+    color: #D41443
+}
+
+/* user */
+.user {
+    padding-top: 50px;
+}
+.user__button {
+    margin-top: 200px;
+}
+.user__descr {
+    padding: 10px;
+}
+.user__wrapper {
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;
+}
+.user__wrap {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #C2E297;
+    border-radius: 10px;
+}
+.user__img-wrap {
+    width: 400px;
+    height: auto;
+    border: 1px solid #C2E297;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.user__img {
+    width: 100%;
+}
+.user__list {
+    margin-top: 30px;
+}
+.user__title {
+    color: #D41443;
+}
+.user__item + .user__item {
+    margin-top: 10px;
+    
+}
+.user__item {
+    font-size: 20px;
+}
+.user__subtitle {
+    font-size: 40px;
+}
